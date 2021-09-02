@@ -1,8 +1,5 @@
 <template>
   <div>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <Navigation />
   </div>
 </template>
@@ -19,10 +16,15 @@ export default {
 </script>
 
 <style lang="scss">
+@font-face {
+  font-family: "Oswald";
+  src: url("./assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
   body {
     background-image: url("../src/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald";
+
   }
 </style>
