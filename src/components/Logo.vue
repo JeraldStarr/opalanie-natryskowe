@@ -1,5 +1,7 @@
 <template>
-  <a class="navigation__logo" href=""></a>
+  <a class="navigation__logo" href="/">
+    <img src="../assets/logo.png" alt="fake bake logo" class="navigation__img">
+  </a>
 </template>
 
 <script>
@@ -8,6 +10,14 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .navigation {
+    &__logo {
+      width: 77px;
+      height: 70px;
+    }
+    &__img {
+      width: 100%;
+    }
+  }
 </style>
