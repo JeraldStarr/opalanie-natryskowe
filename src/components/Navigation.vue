@@ -29,6 +29,8 @@ export default {
     align-items: center;
     font-size: 18px;
     text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 </style>
