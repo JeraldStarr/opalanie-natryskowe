@@ -53,7 +53,18 @@
           opalanie natryskowe + konturowanie**
         </span>
     </div>
-      <div class="priceList__footnotes"></div>
+      <div class="priceList__footnotes">
+        <span class="priceList__footnote">
+          <strong>*Peeling Fake Bake</strong> – dzięki beztłuszczowej formule zapewni odpowiednie 
+          przygotowanie skóry przed zabiegiem,
+            pozostawi ją odpowiednio nawilżoną i gładką oraz przedłuży efekt opalenizny.
+          </span>
+          <span class="priceList__footnote">
+            <strong>
+              **Usługa skierowana do branży kulturystycznej.
+            </strong>
+          </span>
+      </div>
   </div>
 </template>
 
@@ -100,6 +111,10 @@ export default {
     text-align: center;
     font-size: 17px;
     padding-top: 20px;
+  }
+  &__footnote {
+    display: block;
+    font-size: 13px;
   }
 }
 
