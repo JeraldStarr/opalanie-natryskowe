@@ -3,6 +3,7 @@
     <Navigation />
     <Article />
     <PriceList />
+    <Hints />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Navigation from './components/Navigation.vue';
 import Article from './components/Article.vue';
 import PriceList from './components/PriceList.vue';
+import Hints from './components/Hints.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Navigation,
     Article,
     PriceList,
+    Hints,
   }
 }
 </script>
@@ -31,11 +34,10 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-  body {
-    background-image: url("../src/assets/background.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    font-family: "Oswald";
-
-  }
+body {
+  background-image: url("../src/assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Oswald";
+}
 </style>

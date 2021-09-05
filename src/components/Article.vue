@@ -91,7 +91,6 @@ export default {
         &__images {
             display: flex;
             justify-content: center;
-            padding: 0 20%;
         }
         &__image {
             width: 100%;
