@@ -4,6 +4,7 @@
     <Article />
     <PriceList />
     <Hints />
+    <Address />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Navigation from './components/Navigation.vue';
 import Article from './components/Article.vue';
 import PriceList from './components/PriceList.vue';
 import Hints from './components/Hints.vue';
+import Address from './components/Address.vue';
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     Article,
     PriceList,
     Hints,
+    Address,
   }
 }
 </script>

@@ -84,6 +84,8 @@ export default {
         font-size: 16px;
         position: relative;
         padding: 5px;
+        // background-color: red;
+        margin-top: 5px;
         &.#{hints}__item--noListed {
             position: relative;
             left: -45px;
