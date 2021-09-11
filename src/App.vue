@@ -5,6 +5,7 @@
     <PriceList />
     <Hints />
     <Address />
+    <Rewards />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Article from './components/Article.vue';
 import PriceList from './components/PriceList.vue';
 import Hints from './components/Hints.vue';
 import Address from './components/Address.vue';
+import Rewards from './components/Rewards.vue';
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     PriceList,
     Hints,
     Address,
+    Rewards,
   }
 }
 </script>
