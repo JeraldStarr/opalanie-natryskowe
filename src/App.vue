@@ -6,6 +6,7 @@
     <Hints />
     <Address />
     <Rewards />
+    <Footer />
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import PriceList from './components/PriceList.vue';
 import Hints from './components/Hints.vue';
 import Address from './components/Address.vue';
 import Rewards from './components/Rewards.vue';
+import Footer from './components/Footer.vue'; 
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
     Hints,
     Address,
     Rewards,
+    Footer,
   }
 }
 </script>
