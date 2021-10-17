@@ -2,17 +2,20 @@
   <div class="navigation">
     <Logo/>
     <NavLinks/>
+    <Hamburger/>
   </div>
 </template>
 
 <script>
 import Logo from "./Logo.vue";
 import NavLinks from "./NavLinks.vue";
+import Hamburger from "./Hamburger.vue";
 export default {
   name: 'Navigation',
   components: {
     Logo,
     NavLinks,
+    Hamburger,
   },
   props: {
     msg: String

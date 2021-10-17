@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Sheet/>
     <Navigation />
     <Article />
     <PriceList />
@@ -18,6 +19,7 @@ import Hints from './components/Hints.vue';
 import Address from './components/Address.vue';
 import Rewards from './components/Rewards.vue';
 import Footer from './components/Footer.vue'; 
+import Sheet from './components/Sheet.vue';
 
 export default {
   name: 'App',
@@ -29,6 +31,7 @@ export default {
     Address,
     Rewards,
     Footer,
+    Sheet,
   }
 }
 </script>

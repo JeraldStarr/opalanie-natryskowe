@@ -21,7 +21,17 @@ export default {
 <style lang="scss" scoped>
   .navigation {
     &__links {
-      display: flex;
+      @media(max-width: 719px) {
+          position: fixed;
+          top: 0;
+          width: 100vw;
+          transform: translateY(-300px);
+          transition: .4s;
+        .menuSheet & {
+          z-index: 2;
+          transform: translateY(30px);
+        }
+      } 
     }
     &__link {
       padding: 10px;
@@ -29,6 +39,13 @@ export default {
       &:hover {
         color: #e7a5aa;
         cursor: pointer;
+        @media(max-width: 719px) {
+          color: #fff;
+        }
+      }
+      @media(max-width: 719px) {
+        display: block;
+        text-align: center;
       }
     }
   }
