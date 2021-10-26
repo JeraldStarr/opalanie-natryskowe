@@ -91,16 +91,26 @@ export default {
             font-size: 18px;
             padding: 10px 20%;
             text-align: justify;
+            @media (max-width: 719px) {
+                padding: 10px 6%;
+            }
         }
         &__images {
             display: flex;
             justify-content: center;
+            @media (max-width: 719px) {
+                flex-direction: column;
+                width: 90vw;
+            }
         }
         &__image {
             width: 100%;
         }
         &__imageContainer {
             width: 30vw;
+            @media (max-width: 719px) {
+                width: 100%;
+            }
         }
         &__minorHeader {
             color: #e7a5aa;

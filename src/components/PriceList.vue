@@ -81,6 +81,12 @@ export default {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 40px 22%;
+  @media (max-width: 500px) {
+    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
   &__itemContainer {
     display: flex;
     flex-direction: column;
@@ -115,6 +121,12 @@ export default {
   &__footnote {
     display: block;
     font-size: 13px;
+    @media (max-width: 719px) {
+      padding-bottom: 15px;
+      font-size: 14px;
+      padding-left: 16%;
+      padding-right: 16%;
+    }
   }
 }
 
