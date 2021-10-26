@@ -79,6 +79,9 @@ export default {
     }
     &__textContainer {
         padding: 0 27%;
+        @media (max-width: 500px) {
+            padding: 0 15%;
+        }
     }
     &__item {
         font-size: 16px;

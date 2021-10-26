@@ -40,6 +40,9 @@ export default {
         &__elementsGroup {
             text-align: center;
             margin: 10px 0;
+            @media (max-width: 500px) {
+                padding: 0 15%;
+            }
         }
         &__highlighted {
             color: #e7a5aa;
