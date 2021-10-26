@@ -82,6 +82,10 @@ export default {
         &__header {
             font-size: 40px;
             padding: 10px 0 40px;
+            @media (max-width: 719px) {
+                font-size: 26px;
+                padding: 0 0 40px;
+            }
         }
         &__paragraph {
             font-size: 18px;

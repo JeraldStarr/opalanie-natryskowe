@@ -51,5 +51,8 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   font-family: "Oswald";
+  @media (max-width: 719px) {
+    background-image: url("../src/assets/background_mobile.jpg");
+  }
 }
 </style>
