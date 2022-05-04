@@ -1,4 +1,15 @@
-# company_website
+# Opalanie Natryskowe
+
+Opalanie natryskowe is a simple webpage created with Vue.js.
+
+## Supported Platforms
+- chrome
+- firefox
+- chromium
+- tor
+- opera
+- edge
+- yandex
 
 ## Project setup
 ```
